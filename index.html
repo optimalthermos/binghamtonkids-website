@@ -144,7 +144,7 @@
 
   <!-- ======== NEWS ALERT BAR ======== -->
   <div class="news-bar">
-    <span>&#127881;</span> Our 13th Annual Easter Egg Hunt was a huge success — <a href="#news">See the highlights</a>
+    Our 13th Annual Easter Egg Hunt was a huge success — <a href="#news">See the highlights</a>
   </div>
 
   <!-- ======== HEADER ======== -->
@@ -180,8 +180,7 @@
         <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
         </button>
-        <a href="#donate" class="btn btn-heart btn-sm" style="display:none">Donate</a>
-        <a href="#donate" class="btn btn-heart desktop-donate">&#10084; Donate</a>
+        <a href="#donate" class="btn btn-heart desktop-donate">Donate</a>
         <button class="mobile-menu-btn" aria-label="Open menu" id="menuOpen">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
         </button>
@@ -200,7 +199,7 @@
     <a href="#board" onclick="closeMobileNav()">Board</a>
     <a href="#faq" onclick="closeMobileNav()">FAQ</a>
     <a href="#contact" onclick="closeMobileNav()">Contact</a>
-    <a href="#donate" class="btn btn-heart btn-lg" onclick="closeMobileNav()" style="margin-top:auto;">&#10084; Donate Now</a>
+    <a href="#donate" class="btn btn-heart btn-lg" onclick="closeMobileNav()" style="margin-top:auto;">Donate Now</a>
   </div>
 
   <!-- ======== HERO ======== -->
@@ -210,13 +209,11 @@
       <div class="hero-overlay"></div>
     </div>
     <div class="hero-content">
-      <div class="hero-badge">
-        <span>&#127807;</span> Serving Binghamton Since 2013
-      </div>
-      <h1>Every Child Deserves a Happy Childhood</h1>
-      <p>The Children's Charity of Greater Binghamton provides tools, resources, and community support to help local kids develop emotionally, physically, and socially — no matter their family's circumstances.</p>
+      <p class="hero-eyebrow">Binghamton, NY &mdash; Since 2013</p>
+      <h1>30,000 eggs.<br>One community.</h1>
+      <p>The Children's Charity of Greater Binghamton puts joy in the hands of kids who need it most — through the Easter Egg Hunt, Give Back Friday, and school supply drives that families in Broome County count on every year.</p>
       <div class="hero-buttons">
-        <a href="#donate" class="btn btn-primary btn-lg">&#10084; Make a Donation</a>
+        <a href="#donate" class="btn btn-primary btn-lg">Make a Donation</a>
         <a href="#programs" class="btn btn-outline btn-lg" style="border-color:rgba(255,255,255,0.4);color:#fff;">Our Programs</a>
       </div>
     </div>
@@ -252,13 +249,12 @@
           <img src="./assets/volunteers.png" alt="Community volunteers sorting toys, clothing, and book donations for local children" loading="lazy" width="800" height="600">
         </div>
         <div class="about-text fade-up">
-          <div class="section-label">Our Mission</div>
-          <h2>Building <span>Brighter Futures</span> for Local Kids</h2>
+          <h2>Building Brighter Futures<br>for Local Kids</h2>
           <p>The Children's Charity of Greater Binghamton was formed for the charitable purpose of providing the tools and resources to help children in the Greater Binghamton area develop emotionally, physically, and socially as they grow into young adults.</p>
           <p>We reach out to all youth, especially those whose families are not in the position to provide the fundamentals, necessities, and little extras of a happy childhood.</p>
           <p>The ability to grow and develop into a healthy adolescence and adulthood is not a luxury, but a fundamental right of every child, no matter the family's economic circumstances.</p>
           <div class="about-highlight">
-            <p>&#128205; In the Binghamton area, a shocking 32.7% of families live below the poverty level — more than double the state average. We're here to change that trajectory for kids in our community.</p>
+            <p>In the Binghamton area, 32.7% of families live below the poverty level — more than double the state average. We're here to change that trajectory for kids in our community.</p>
           </div>
         </div>
       </div>
@@ -268,40 +264,44 @@
   <!-- ======== PROGRAMS ======== -->
   <section class="section programs-section" id="programs">
     <div class="section-inner">
-      <div class="section-header fade-up">
-        <div class="section-label">What We Do</div>
+      <div class="programs-header fade-up">
         <h2 class="section-title">Programs That Make a Difference</h2>
-        <p class="section-subtitle">From holiday gifts to school supplies, every program is designed to lift kids up, build self-esteem, and show them their community cares.</p>
+        <p class="section-subtitle">From holiday gifts to school supplies, every program is designed to lift kids up and show them their community cares.</p>
       </div>
-      <div class="programs-grid stagger">
-        <div class="program-card">
-          <div class="program-card-image">
-            <img src="./assets/hero.png" alt="Children hunting for Easter eggs at Recreation Park" loading="lazy" width="600" height="450">
-          </div>
-          <div class="program-card-body">
-            <div class="program-card-icon">&#127873;</div>
-            <h3>Easter Egg Hunt</h3>
-            <p>Our annual Easter Egg Hunt in Memory of Harper Stantz brings 30,000 eggs, entertainment, refreshments, and the Easter Bunny to Recreation Park — completely free for all families. Now in its 13th year.</p>
-          </div>
+
+      <!-- Easter Egg Hunt — flagship callout -->
+      <div class="program-hero fade-up">
+        <div class="program-hero-image">
+          <img src="./assets/hero.png" alt="Children hunting for Easter eggs at Recreation Park" loading="lazy" width="900" height="500">
         </div>
+        <div class="program-hero-content">
+          <span class="program-year">13th Year &mdash; April 4, 2026</span>
+          <h3>Easter Egg Hunt in Memory of Harper Stantz</h3>
+          <p>Our flagship event brings 30,000 eggs, live entertainment by Louie G, refreshments from Mirabito, and the Easter Bunny to Recreation Park every spring — completely free for all families with children ages 0–10. This is what CCGB is built on.</p>
+          <a href="#news" class="btn btn-primary">See This Year's Highlights</a>
+        </div>
+      </div>
+
+      <!-- Two smaller programs -->
+      <div class="programs-pair stagger">
         <div class="program-card">
           <div class="program-card-image">
-            <img src="./assets/give-back.png" alt="Children receiving holiday gifts at Give Back Friday" loading="lazy" width="600" height="450">
+            <img src="./assets/give-back.png" alt="Children receiving holiday gifts at Give Back Friday" loading="lazy" width="600" height="400">
           </div>
           <div class="program-card-body">
-            <div class="program-card-icon">&#127876;</div>
+            <span class="program-year">18th Year</span>
             <h3>Give Back Friday</h3>
-            <p>Our annual holiday toy drive and fundraiser, now in its 18th year. Held the Friday after Thanksgiving at The Old Union Hall, families receive gifts while the community comes together to donate toys and support.</p>
+            <p>Our annual holiday toy drive and fundraiser, held the Friday after Thanksgiving at The Old Union Hall. Families receive gifts while the community comes together to donate toys and support kids who need it most.</p>
           </div>
         </div>
         <div class="program-card">
           <div class="program-card-image">
-            <img src="./assets/school-supplies.png" alt="School supplies including backpacks, notebooks, and art supplies" loading="lazy" width="600" height="450">
+            <img src="./assets/school-supplies.png" alt="School supplies including backpacks, notebooks, and art supplies" loading="lazy" width="600" height="400">
           </div>
           <div class="program-card-body">
-            <div class="program-card-icon">&#127891;</div>
+            <span class="program-year">Annual Drive</span>
             <h3>School Supply Drive</h3>
-            <p>Each year we collect and distribute school supplies — notebooks, crayons, pencils, backpacks, and more — to ensure every child starts the school year prepared and confident.</p>
+            <p>Each year we collect and distribute notebooks, crayons, pencils, backpacks, and more — so every child starts the school year prepared and confident, regardless of their family's circumstances.</p>
           </div>
         </div>
       </div>
@@ -310,16 +310,15 @@
 
   <!-- ======== HARPER STANTZ MEMORIAL ======== -->
   <div class="memorial-banner fade-up">
-    <p>&#128156; Our Easter Egg Hunt is held each year <strong>in loving memory of Harper Stantz</strong>, who was taken from our community in 2019. Her family and our charity honor her spirit by bringing joy to thousands of children every spring.</p>
+    <p>Our Easter Egg Hunt is held each year <strong>in loving memory of Harper Stantz</strong>, who was taken from our community in 2019. Her family and our charity honor her spirit by bringing joy to thousands of children every spring.</p>
   </div>
 
   <!-- ======== NEWS ======== -->
   <section class="section news-section" id="news">
     <div class="section-inner">
-      <div class="section-header fade-up">
-        <div class="section-label">Latest News</div>
+      <div class="news-header fade-up">
         <h2 class="section-title">What's Happening</h2>
-        <p class="section-subtitle">Stay up to date on our events, successes, and community impact.</p>
+        <p class="section-subtitle">Events, coverage, and community impact from the past year.</p>
       </div>
 
       <!-- Featured news: Easter Egg Hunt -->
@@ -329,7 +328,7 @@
             <img src="./assets/hero.png" alt="13th Annual Easter Egg Hunt at Recreation Park" loading="lazy" width="600" height="400">
           </div>
           <div class="news-featured-content">
-            <div class="news-tag">&#127881; Event Recap</div>
+            <div class="news-tag">Event Recap</div>
             <h3>13th Annual Easter Egg Hunt Lights Up Rec Park</h3>
             <p>On April 4, 2026, thousands of families gathered at Recreation Park for our biggest Easter Egg Hunt yet — 30,000 eggs, live entertainment by Louie G, refreshments from Mirabito, and a visit from the Easter Bunny. Kids ages 0–10 scrambled across the park at 11 AM for this completely free community event.</p>
             <p>The Broome County District Attorney's Office also made a generous $1,600 donation to support our mission.</p>
@@ -339,7 +338,7 @@
       </div>
 
       <!-- ======== VIDEO & SOCIAL EMBEDS ======== -->
-      <h3 class="media-section-title fade-up">&#127909; News Coverage & Social Media</h3>
+      <h3 class="media-section-title fade-up">News Coverage &amp; Social Media</h3>
 
       <div class="media-grid fade-up">
 
@@ -349,7 +348,7 @@
             <iframe src="https://www.youtube.com/embed/8NekakC1gJg" title="NewsChannel 34: 13th Annual Children's Charity Easter Egg Hunt" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
           </div>
           <div class="media-card-body">
-            <div class="media-card-source">&#128250; NewsChannel 34 (WIVT)</div>
+            <div class="media-card-source">NewsChannel 34 (WIVT)</div>
             <h4>13th Annual Easter Egg Hunt Coverage</h4>
             <p>Local news coverage of this year's Easter Egg Hunt in Memory of Harper Stantz at Recreation Park.</p>
             <div class="news-date">April 3, 2026</div>
@@ -362,8 +361,8 @@
             <iframe src="https://www.youtube.com/embed/rahz_cwr0uw" title="WBNG: Children's Charity of Greater Binghamton, Mirabito announce details of annual toy drive" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
           </div>
           <div class="media-card-body">
-            <div class="media-card-source">&#128250; WBNG 12 News</div>
-            <h4>CCGB & Mirabito Announce Annual Toy Drive</h4>
+            <div class="media-card-source">WBNG 12 News</div>
+            <h4>CCGB &amp; Mirabito Announce Annual Toy Drive</h4>
             <p>WBNG coverage of the Children's Charity and Mirabito partnering for the Give Back Friday toy drive.</p>
             <div class="news-date">November 27, 2024</div>
           </div>
@@ -375,7 +374,7 @@
             <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwbng12news%2Fvideos%2F341672330036724%2F&show_text=true&width=500" width="500" height="400" style="border:none;overflow:hidden;max-width:100%;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" loading="lazy"></iframe>
           </div>
           <div class="media-card-body">
-            <div class="media-card-source">&#128196; WBNG 12 News on Facebook</div>
+            <div class="media-card-source">WBNG 12 News on Facebook</div>
             <h4>Easter Egg Hunt in Honor of Harper Stantz</h4>
             <p>WBNG's on-location video from the Easter Egg Hunt dedicated to Harper Stantz, showing the community coming together for the children.</p>
             <div class="news-date">April 20, 2019</div>
@@ -388,7 +387,7 @@
             <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmirabitocstores%2Fposts%2F1603626467822189&show_text=true&width=500" width="500" height="380" style="border:none;overflow:hidden;max-width:100%;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" loading="lazy"></iframe>
           </div>
           <div class="media-card-body">
-            <div class="media-card-source">&#128196; Mirabito on Facebook</div>
+            <div class="media-card-source">Mirabito on Facebook</div>
             <h4>Mirabito Sponsors 2026 Easter Egg Hunt</h4>
             <p>Mirabito Energy proudly sponsors the Children's Charity's annual Easter Egg Hunt with refreshments, pizza, and ice cream for all attendees.</p>
             <div class="news-date">April 2, 2026</div>
@@ -401,7 +400,7 @@
             <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ffox40wicz%2Fposts%2F1531043089026125&show_text=true&width=500" width="500" height="350" style="border:none;overflow:hidden;max-width:100%;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" loading="lazy"></iframe>
           </div>
           <div class="media-card-body">
-            <div class="media-card-source">&#128196; FOX 40 WICZ on Facebook</div>
+            <div class="media-card-source">FOX 40 WICZ on Facebook</div>
             <h4>$1,600 Donation from DA's Office</h4>
             <p>The Broome County District Attorney's Office donated $1,600 to the Children's Charity ahead of the Easter Egg Hunt.</p>
             <div class="news-date">April 2, 2026</div>
@@ -414,7 +413,7 @@
             <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ffox40wicz%2Fposts%2F1421154683348300&show_text=true&width=500" width="500" height="380" style="border:none;overflow:hidden;max-width:100%;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" loading="lazy"></iframe>
           </div>
           <div class="media-card-body">
-            <div class="media-card-source">&#128196; FOX 40 WICZ on Facebook</div>
+            <div class="media-card-source">FOX 40 WICZ on Facebook</div>
             <h4>18th Annual Give Back Friday</h4>
             <p>FOX 40 covers the Children's Charity's annual Give Back Friday, bringing holiday joy to Binghamton-area families.</p>
             <div class="news-date">November 26, 2025</div>
@@ -425,7 +424,7 @@
 
       <!-- Instagram embed row -->
       <div class="instagram-row fade-up">
-        <h3 class="media-section-title">&#128247; From Our Instagram</h3>
+        <h3 class="media-section-title">From Our Instagram</h3>
         <div class="instagram-grid">
           <div class="instagram-embed-container">
             <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DWHNnazkv5L/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:12px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0; max-width:540px; min-width:280px; padding:0; width:100%;">
@@ -450,64 +449,60 @@
 
   <!-- ======== DONATE ======== -->
   <section class="section donate-section" id="donate">
-    <div class="donate-content fade-up">
-      <div class="section-label" style="color:rgba(255,255,255,0.7);">Support Our Mission</div>
-      <h2>Help a Child Smile Today</h2>
-      <p>Every dollar goes directly toward providing children in Greater Binghamton with the tools, experiences, and joy they deserve. Your generosity changes lives.</p>
-      <div class="donate-options">
-        <div class="donate-method">
-          <div class="donate-method-icon">&#128179;</div>
-          <h4>Venmo</h4>
-          <p>@childrenscharityofgreaterbing</p>
+    <div class="section-inner">
+      <div class="donate-layout fade-up">
+        <div class="donate-left">
+          <h2>Support a Kid<br>in Binghamton</h2>
+          <p>Every dollar goes directly toward providing children in Greater Binghamton with the tools, experiences, and joy they deserve. Your generosity changes lives.</p>
+          <p class="donate-tax-note">The Children's Charity of Greater Binghamton is a 501(c)(3) nonprofit. All donations are tax-deductible.</p>
         </div>
-        <div class="donate-method">
-          <div class="donate-method-icon">&#9993;</div>
-          <h4>Mail a Check</h4>
-          <p>P.O. Box 220<br>Bible School Park, NY 13737</p>
-        </div>
-        <div class="donate-method">
-          <div class="donate-method-icon">&#127873;</div>
-          <h4>Donate Toys & Supplies</h4>
-          <p>Contact us to arrange a drop-off</p>
+        <div class="donate-right">
+          <div class="donate-methods">
+            <div class="donate-method">
+              <div class="donate-method-label">Venmo</div>
+              <div class="donate-method-detail">@childrenscharityofgreaterbing<br><span class="donate-method-note">Search "childrenscharity" — select Business</span></div>
+            </div>
+            <div class="donate-method">
+              <div class="donate-method-label">Mail a Check</div>
+              <div class="donate-method-detail">P.O. Box 220<br>Bible School Park, NY 13737</div>
+            </div>
+            <div class="donate-method">
+              <div class="donate-method-label">Donate Toys &amp; Supplies</div>
+              <div class="donate-method-detail">Contact us to arrange a drop-off</div>
+            </div>
+          </div>
         </div>
       </div>
-      <p class="donate-tax-note">The Children's Charity of Greater Binghamton is a 501(c)(3) nonprofit. All donations are tax-deductible.</p>
     </div>
   </section>
 
   <!-- ======== BOARD ======== -->
   <section class="section board-section" id="board">
-    <div class="section-inner">
-      <div class="section-header fade-up">
-        <div class="section-label">Leadership</div>
+    <div class="section-inner section-inner--narrow">
+      <div class="board-header fade-up">
         <h2 class="section-title">Board of Directors</h2>
         <p class="section-subtitle">Dedicated community members working together for our children's future.</p>
       </div>
-      <div class="board-grid stagger">
+      <div class="board-list stagger">
         <div class="board-member">
-          <div class="board-member-avatar">SB</div>
-          <h4>Sue Bucci</h4>
-          <p>Chairwoman</p>
+          <span class="board-member-name">Sue Bucci</span>
+          <span class="board-member-role">Chairwoman</span>
         </div>
         <div class="board-member">
-          <div class="board-member-avatar">LB</div>
-          <h4>Liz Bucci Burns</h4>
-          <p>President & Co-Founder</p>
+          <span class="board-member-name">Liz Bucci Burns</span>
+          <span class="board-member-role">President &amp; Co-Founder</span>
         </div>
         <div class="board-member">
-          <div class="board-member-avatar">KC</div>
-          <h4>Katie Carpenter</h4>
-          <p>Vice President</p>
+          <span class="board-member-name">Katie Carpenter</span>
+          <span class="board-member-role">Vice President</span>
         </div>
         <div class="board-member">
-          <div class="board-member-avatar">NK</div>
-          <h4>Natalie Knudson</h4>
-          <p>Board Member</p>
+          <span class="board-member-name">Natalie Knudson</span>
+          <span class="board-member-role">Board Member</span>
         </div>
         <div class="board-member">
-          <div class="board-member-avatar">RS</div>
-          <h4>Rylee Stantz</h4>
-          <p>Board Member</p>
+          <span class="board-member-name">Rylee Stantz</span>
+          <span class="board-member-role">Board Member</span>
         </div>
       </div>
     </div>
@@ -515,9 +510,8 @@
 
   <!-- ======== FAQ ======== -->
   <section class="section faq-section" id="faq">
-    <div class="section-inner">
-      <div class="section-header fade-up">
-        <div class="section-label">Questions</div>
+    <div class="section-inner section-inner--narrow">
+      <div class="faq-header fade-up">
         <h2 class="section-title">Frequently Asked</h2>
       </div>
       <div class="faq-list fade-up">
@@ -545,25 +539,34 @@
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
           </button>
           <div class="faq-answer">
-            <p>We always welcome volunteers for our events, including the Easter Egg Hunt, Give Back Friday, and school supply drives. Reach out to us at <strong>binghamtonkids1@gmail.com</strong> or through our Facebook page to get involved.</p>
+            <p>We always welcome volunteers for our events, including the Easter Egg Hunt, Give Back Friday, and school supply drives. Reach out to us at <a href="mailto:binghamtonkids1@gmail.com">binghamtonkids1@gmail.com</a> to get involved.</p>
           </div>
         </div>
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
-            Who is Harper Stantz?
+            When is the Easter Egg Hunt?
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
           </button>
           <div class="faq-answer">
-            <p>Harper Stantz was a beloved member of our community who was tragically struck by a car and killed while leaving Recreation Park in 2019. Our annual Easter Egg Hunt is held in her memory, organized by her family, the Children's Charity, and the community. A scholarship fund has also been established in her honor.</p>
+            <p>The Easter Egg Hunt is held annually at Recreation Park in Binghamton, NY, typically on the Saturday before Easter. The 13th Annual event was held April 4, 2026 at 11:00 AM. Follow our <a href="https://www.facebook.com/p/Childrens-Charity-of-Greater-Binghamton-61565848504793/" target="_blank" rel="noopener noreferrer">Facebook page</a> for next year's date.</p>
           </div>
         </div>
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
-            When is the next event?
+            When is Give Back Friday?
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
           </button>
           <div class="faq-answer">
-            <p>Our major events include the Easter Egg Hunt each spring (typically the Saturday before Easter) and Give Back Friday the day after Thanksgiving. Follow us on Facebook and Instagram for the latest announcements and exact dates.</p>
+            <p>Give Back Friday is held annually on the Friday after Thanksgiving. The 18th Annual Give Back Friday was held in November 2025 at The Old Union Hall. Watch our social media for announcements about the next event.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Who does the charity serve?
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>We serve children and families throughout the Greater Binghamton area (Broome County and surrounding communities). Our programs are open to all youth, with special attention to families who may not be in a position to provide the fundamentals and little extras of a happy childhood.</p>
           </div>
         </div>
       </div>
@@ -573,28 +576,25 @@
   <!-- ======== CONTACT ======== -->
   <section class="section contact-section" id="contact">
     <div class="section-inner">
-      <div class="section-header fade-up">
-        <div class="section-label">Get In Touch</div>
-        <h2 class="section-title">Contact Us</h2>
+      <div class="contact-header fade-up">
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="section-subtitle">Questions, volunteer inquiries, donation drop-offs — we're glad to hear from you.</p>
       </div>
       <div class="contact-grid fade-up">
         <div class="contact-info-card">
           <div class="contact-item">
-            <div class="contact-icon">&#9993;</div>
             <div>
               <h4>Email</h4>
               <p><a href="mailto:binghamtonkids1@gmail.com">binghamtonkids1@gmail.com</a></p>
             </div>
           </div>
           <div class="contact-item">
-            <div class="contact-icon">&#128205;</div>
             <div>
               <h4>Mailing Address</h4>
               <p>P.O. Box 220<br>Bible School Park, NY 13737</p>
             </div>
           </div>
           <div class="contact-item">
-            <div class="contact-icon">&#128246;</div>
             <div>
               <h4>Social Media</h4>
               <p>
@@ -604,7 +604,6 @@
             </div>
           </div>
           <div class="contact-item">
-            <div class="contact-icon">&#128179;</div>
             <div>
               <h4>Venmo</h4>
               <p>@childrenscharityofgreaterbing</p>
