@@ -1,0 +1,8 @@
+[phases.setup]
+aptPkgs = ["nginx"]
+
+[phases.build]
+cmds = ["mkdir -p /usr/share/nginx/html && cp -r . /usr/share/nginx/html/"]
+
+[start]
+cmd = "cp -r /home/user/workspace/ccgb-website/* /usr/share/nginx/html/ 2>/dev/null; nginx -g 'daemon off;'"
